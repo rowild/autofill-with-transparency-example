@@ -1,2 +1,5 @@
 # autofill-with-transparency-example
-Created with CodeSandbox
+
+
+The problem this repo tries to expose is that "autofill" on input fields does not work with transparent colors. 
+This repo was prepared for an issue posted onMDN.
