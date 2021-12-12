@@ -1,0 +1,21 @@
+input#first:autofill,
+input#first:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px red inset;
+  box-shadow: 0 0 0 1000px red inset;
+  -webkit-text-fill-color: white;
+}
+
+input#second:autofill,
+input#second:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px rgb(168, 50, 66) inset;
+  box-shadow: 0 0 0 1000px rgba(168, 50, 66, 0.5) inset;
+  -webkit-text-fill-color: rgba(254, 254, 254, 0.85);
+}
+
+.wrapper {
+  margin: 2rem;
+}
+
+input {
+  padding: 0.35rem 0.5rem;
+}
